@@ -1,0 +1,1 @@
+PASS: remote movement, damage, death, respawn and results replicated

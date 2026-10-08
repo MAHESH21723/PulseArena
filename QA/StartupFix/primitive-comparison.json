@@ -1,0 +1,27 @@
+[
+  {
+    "Component": "MeshFilter",
+    "OldAndroidRelease": true,
+    "FixedAndroidRelease": true
+  },
+  {
+    "Component": "MeshRenderer",
+    "OldAndroidRelease": true,
+    "FixedAndroidRelease": true
+  },
+  {
+    "Component": "BoxCollider",
+    "OldAndroidRelease": true,
+    "FixedAndroidRelease": true
+  },
+  {
+    "Component": "CapsuleCollider",
+    "OldAndroidRelease": false,
+    "FixedAndroidRelease": true
+  },
+  {
+    "Component": "SphereCollider",
+    "OldAndroidRelease": false,
+    "FixedAndroidRelease": true
+  }
+]

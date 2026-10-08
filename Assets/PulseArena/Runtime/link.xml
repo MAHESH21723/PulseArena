@@ -1,0 +1,15 @@
+<linker>
+  <!-- CreatePrimitive uses these native components without managed type references.
+       In an IL2CPP release, stripping CapsuleCollider stops arena construction before
+       the menu is created; SphereCollider is also needed for the pilot heads.
+       Keep the exact primitive component types used by ArenaArt.Shape. -->
+  <assembly fullname="UnityEngine.CoreModule">
+    <type fullname="UnityEngine.MeshFilter" preserve="all" />
+    <type fullname="UnityEngine.MeshRenderer" preserve="all" />
+  </assembly>
+  <assembly fullname="UnityEngine.PhysicsModule">
+    <type fullname="UnityEngine.BoxCollider" preserve="all" />
+    <type fullname="UnityEngine.SphereCollider" preserve="all" />
+    <type fullname="UnityEngine.CapsuleCollider" preserve="all" />
+  </assembly>
+</linker>

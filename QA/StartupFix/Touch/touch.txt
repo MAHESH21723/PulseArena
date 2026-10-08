@@ -1,0 +1,1 @@
+FAIL: settings opens by touch

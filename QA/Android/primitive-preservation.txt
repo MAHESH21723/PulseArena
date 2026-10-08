@@ -1,0 +1,1 @@
+PASS: Android retains all runtime primitive components: MeshFilter, MeshRenderer, BoxCollider, CapsuleCollider, SphereCollider
