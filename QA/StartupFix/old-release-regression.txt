@@ -1,0 +1,1 @@
+Android startup dependencies were stripped: CapsuleCollider, SphereCollider

@@ -1,0 +1,1 @@
+PASS: screens captured for 6 devices

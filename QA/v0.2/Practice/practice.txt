@@ -1,0 +1,1 @@
+PASS: PASS: countdown to playing transition (saw phase 3=True, ticks=15); PASS: practice spawned player + 3 bots, active match; PASS: weapon swap to scatter works; PASS: scatter shot damages a bot at close range

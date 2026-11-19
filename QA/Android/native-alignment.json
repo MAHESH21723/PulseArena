@@ -1,0 +1,61 @@
+[
+  {
+    "library": "base/lib/arm64-v8a/lib_burst_generated.so",
+    "loadSegmentAlignments": [
+      16384,
+      16384,
+      16384,
+      16384
+    ],
+    "aligned16KB": true
+  },
+  {
+    "library": "base/lib/arm64-v8a/libc++_shared.so",
+    "loadSegmentAlignments": [
+      16384,
+      16384,
+      16384,
+      16384
+    ],
+    "aligned16KB": true
+  },
+  {
+    "library": "base/lib/arm64-v8a/libgame.so",
+    "loadSegmentAlignments": [
+      16384,
+      16384,
+      16384
+    ],
+    "aligned16KB": true
+  },
+  {
+    "library": "base/lib/arm64-v8a/libil2cpp.so",
+    "loadSegmentAlignments": [
+      16384,
+      16384,
+      16384,
+      16384
+    ],
+    "aligned16KB": true
+  },
+  {
+    "library": "base/lib/arm64-v8a/libmain.so",
+    "loadSegmentAlignments": [
+      16384,
+      16384,
+      16384,
+      16384
+    ],
+    "aligned16KB": true
+  },
+  {
+    "library": "base/lib/arm64-v8a/libunity.so",
+    "loadSegmentAlignments": [
+      16384,
+      16384,
+      16384,
+      16384
+    ],
+    "aligned16KB": true
+  }
+]

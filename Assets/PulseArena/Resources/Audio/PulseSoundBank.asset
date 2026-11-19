@@ -1,0 +1,402 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f7265147d10d403438e20fcbcbdaac09, type: 3}
+  m_Name: PulseSoundBank
+  m_EditorClassIdentifier: Assembly-CSharp::PulseArena.PulseSoundBank
+  Entries:
+  - Key: shot_carbine
+    Clips:
+    - {fileID: 8300000, guid: 7b5386ee8515a754f9f291d925f8431f, type: 3}
+    - {fileID: 8300000, guid: 874d4aa6806bf7345a358ae152bbd0c3, type: 3}
+    - {fileID: 8300000, guid: c488e448a7a09f74a9505624d8128d84, type: 3}
+    - {fileID: 8300000, guid: e42d9fa59b35e9f4fb37ec7372e145cd, type: 3}
+    Volume: 1
+    MaxVoices: 4
+    Loop: 0
+    PitchVariation: 0.03
+    VolumeVariation: 0.05
+    Cooldown: 0.02
+    Priority: 3
+  - Key: shot_secondary
+    Clips:
+    - {fileID: 8300000, guid: 013db68a776cb8344bfc1ec4edc72dc7, type: 3}
+    - {fileID: 8300000, guid: bc67da7055dd8fa4fa4c7434187b00aa, type: 3}
+    - {fileID: 8300000, guid: 336f9ed472178a347ac06ff726724b65, type: 3}
+    - {fileID: 8300000, guid: ebb7e9fe8a89fbb44a65ff1e170de30a, type: 3}
+    Volume: 1
+    MaxVoices: 3
+    Loop: 0
+    PitchVariation: 0.03
+    VolumeVariation: 0.05
+    Cooldown: 0.02
+    Priority: 4
+  - Key: reload
+    Clips:
+    - {fileID: 8300000, guid: a0d128720973f0b47af3d4273da0ac58, type: 3}
+    - {fileID: 8300000, guid: 7254c91c1e858f94aa2b5b5855460576, type: 3}
+    - {fileID: 8300000, guid: 82fce7bf90317f642b3017afc3fa3ac6, type: 3}
+    Volume: 0.8
+    MaxVoices: 2
+    Loop: 0
+    PitchVariation: 0.02
+    VolumeVariation: 0.05
+    Cooldown: 0
+    Priority: 2
+  - Key: swap
+    Clips:
+    - {fileID: 8300000, guid: 55ba2258772acfa4199b7e61447f5546, type: 3}
+    - {fileID: 8300000, guid: cc83ea730f6a694428463f7fcf315879, type: 3}
+    - {fileID: 8300000, guid: 1e9ceb4ef31bc874c8af1d545bb1cdec, type: 3}
+    Volume: 0.8
+    MaxVoices: 2
+    Loop: 0
+    PitchVariation: 0.04
+    VolumeVariation: 0.06
+    Cooldown: 0
+    Priority: 2
+  - Key: empty
+    Clips:
+    - {fileID: 8300000, guid: 0d7fbc9503d614041914f0c6e2271054, type: 3}
+    - {fileID: 8300000, guid: 9236396dedbf7be4aab7cdc49864849b, type: 3}
+    - {fileID: 8300000, guid: 6b4d91aa86d06de4c9d662d26c2fa4d6, type: 3}
+    Volume: 0.8
+    MaxVoices: 1
+    Loop: 0
+    PitchVariation: 0.05
+    VolumeVariation: 0.1
+    Cooldown: 0.12
+    Priority: 2
+  - Key: low_ammo
+    Clips:
+    - {fileID: 8300000, guid: ee9e9917ddd0d2b4397c3353a5a7282c, type: 3}
+    Volume: 0.8
+    MaxVoices: 1
+    Loop: 0
+    PitchVariation: 0
+    VolumeVariation: 0
+    Cooldown: 0.5
+    Priority: 4
+  - Key: impact_wall
+    Clips:
+    - {fileID: 8300000, guid: 2aeade172d0c6054ba8e3eca4c314193, type: 3}
+    - {fileID: 8300000, guid: 922c52385eeefc3418358d6f6704e0a5, type: 3}
+    - {fileID: 8300000, guid: e9369737de0b3744ea8767f16182912c, type: 3}
+    - {fileID: 8300000, guid: c5f5653a229cb914f8b8633f9e0b9f6a, type: 3}
+    Volume: 0.7
+    MaxVoices: 4
+    Loop: 0
+    PitchVariation: 0.08
+    VolumeVariation: 0.15
+    Cooldown: 0.02
+    Priority: 1
+  - Key: impact_shield
+    Clips:
+    - {fileID: 8300000, guid: 0339d6e14f0190841a0998e8f34e23c9, type: 3}
+    - {fileID: 8300000, guid: a3862fa6b0402fb438b64bf1e645776d, type: 3}
+    - {fileID: 8300000, guid: dfaee55e6a48e5e46aeff5355560ad4b, type: 3}
+    Volume: 0.7
+    MaxVoices: 3
+    Loop: 0
+    PitchVariation: 0.06
+    VolumeVariation: 0.12
+    Cooldown: 0.02
+    Priority: 1
+  - Key: hit_confirm
+    Clips:
+    - {fileID: 8300000, guid: 942c8fa21f2eeff4a9212d3834044361, type: 3}
+    - {fileID: 8300000, guid: a94085218d372ad40b749060771d7b4d, type: 3}
+    - {fileID: 8300000, guid: 96226d51835704848865be5f3df0c5b8, type: 3}
+    Volume: 0.9
+    MaxVoices: 2
+    Loop: 0
+    PitchVariation: 0.02
+    VolumeVariation: 0
+    Cooldown: 0.03
+    Priority: 6
+  - Key: hit_crit
+    Clips:
+    - {fileID: 8300000, guid: 3d27ad58407dc1d4d8921702060b38a0, type: 3}
+    - {fileID: 8300000, guid: dc5630e1914c43b4ea116e33a63f403f, type: 3}
+    Volume: 1
+    MaxVoices: 2
+    Loop: 0
+    PitchVariation: 0.02
+    VolumeVariation: 0
+    Cooldown: 0.03
+    Priority: 7
+  - Key: kill_confirm
+    Clips:
+    - {fileID: 8300000, guid: 2646d2ff4ab97e3469b9155c56e097d8, type: 3}
+    - {fileID: 8300000, guid: 2f131d160054a714eaf16a4f3d399ebe, type: 3}
+    Volume: 1
+    MaxVoices: 2
+    Loop: 0
+    PitchVariation: 0.02
+    VolumeVariation: 0
+    Cooldown: 0.1
+    Priority: 9
+  - Key: kill
+    Clips:
+    - {fileID: 8300000, guid: 2646d2ff4ab97e3469b9155c56e097d8, type: 3}
+    - {fileID: 8300000, guid: 2f131d160054a714eaf16a4f3d399ebe, type: 3}
+    Volume: 1
+    MaxVoices: 2
+    Loop: 0
+    PitchVariation: 0.02
+    VolumeVariation: 0
+    Cooldown: 0.1
+    Priority: 9
+  - Key: hit_taken
+    Clips:
+    - {fileID: 8300000, guid: 5c49b5d0d267ef042b310b8b32ec088c, type: 3}
+    - {fileID: 8300000, guid: 266715568b2546140888827b53070894, type: 3}
+    - {fileID: 8300000, guid: b7d08263271dd7a428565b0b11f23d4b, type: 3}
+    Volume: 1
+    MaxVoices: 3
+    Loop: 0
+    PitchVariation: 0.03
+    VolumeVariation: 0.05
+    Cooldown: 0.04
+    Priority: 8
+  - Key: hurt
+    Clips:
+    - {fileID: 8300000, guid: 5c49b5d0d267ef042b310b8b32ec088c, type: 3}
+    - {fileID: 8300000, guid: 266715568b2546140888827b53070894, type: 3}
+    - {fileID: 8300000, guid: b7d08263271dd7a428565b0b11f23d4b, type: 3}
+    Volume: 1
+    MaxVoices: 3
+    Loop: 0
+    PitchVariation: 0.03
+    VolumeVariation: 0.05
+    Cooldown: 0.04
+    Priority: 8
+  - Key: shield_break
+    Clips:
+    - {fileID: 8300000, guid: e685f64e802286044b314db633a958b5, type: 3}
+    - {fileID: 8300000, guid: 3b63b6ff55b7bc2458f6b8aae93abbb9, type: 3}
+    Volume: 1
+    MaxVoices: 2
+    Loop: 0
+    PitchVariation: 0.02
+    VolumeVariation: 0
+    Cooldown: 0.25
+    Priority: 8
+  - Key: death
+    Clips:
+    - {fileID: 8300000, guid: 50ed6726093addc4cbd5e363ecd1847f, type: 3}
+    - {fileID: 8300000, guid: 4b080e4688f23e74eb4bff6402a7c962, type: 3}
+    Volume: 1
+    MaxVoices: 1
+    Loop: 0
+    PitchVariation: 0.02
+    VolumeVariation: 0
+    Cooldown: 0
+    Priority: 10
+  - Key: explosion
+    Clips:
+    - {fileID: 8300000, guid: a352a72f526d5114ab1a982e2a30ea4c, type: 3}
+    - {fileID: 8300000, guid: 4838fd937a7daa1469d2c8e18d189a40, type: 3}
+    Volume: 0.9
+    MaxVoices: 3
+    Loop: 0
+    PitchVariation: 0.05
+    VolumeVariation: 0.1
+    Cooldown: 0.05
+    Priority: 5
+  - Key: respawn
+    Clips:
+    - {fileID: 8300000, guid: 3f03eb9e625e8454386191b527b3a295, type: 3}
+    - {fileID: 8300000, guid: da79d1976797b47438a0bc54e17551b7, type: 3}
+    Volume: 0.8
+    MaxVoices: 2
+    Loop: 0
+    PitchVariation: 0.02
+    VolumeVariation: 0.05
+    Cooldown: 0
+    Priority: 3
+  - Key: footstep
+    Clips:
+    - {fileID: 8300000, guid: b2f31c4af7532bb46a16f3e7550bb634, type: 3}
+    - {fileID: 8300000, guid: b5d8ac3f28e9eba4691d091d20098e99, type: 3}
+    - {fileID: 8300000, guid: fe822ed908a7e1a4a83dfc9dfc5cdacf, type: 3}
+    - {fileID: 8300000, guid: 1ae8c6fc9308fdd45be78c40fffc048a, type: 3}
+    - {fileID: 8300000, guid: 1c0c9686f90dc6f4ead2e7755dcbda9a, type: 3}
+    - {fileID: 8300000, guid: 9b667779e8958794f90a2bb5bef66878, type: 3}
+    Volume: 0.45
+    MaxVoices: 4
+    Loop: 0
+    PitchVariation: 0.07
+    VolumeVariation: 0.2
+    Cooldown: 0.05
+    Priority: 0
+  - Key: pickup_shield
+    Clips:
+    - {fileID: 8300000, guid: 3077d947e53358646b1205d3f20ee9a8, type: 3}
+    - {fileID: 8300000, guid: ef5f0fe9f45aebe4fa3c716d50d4a58b, type: 3}
+    Volume: 0.85
+    MaxVoices: 2
+    Loop: 0
+    PitchVariation: 0.02
+    VolumeVariation: 0.05
+    Cooldown: 0
+    Priority: 4
+  - Key: pickup_ammo
+    Clips:
+    - {fileID: 8300000, guid: 5d94fbe316ed20a40a03fd9aa9aa8d2f, type: 3}
+    - {fileID: 8300000, guid: b5a53441768a9c845a3e75be37235dd7, type: 3}
+    Volume: 0.85
+    MaxVoices: 2
+    Loop: 0
+    PitchVariation: 0.03
+    VolumeVariation: 0.05
+    Cooldown: 0
+    Priority: 4
+  - Key: pickup
+    Clips:
+    - {fileID: 8300000, guid: 3077d947e53358646b1205d3f20ee9a8, type: 3}
+    - {fileID: 8300000, guid: ef5f0fe9f45aebe4fa3c716d50d4a58b, type: 3}
+    - {fileID: 8300000, guid: 5d94fbe316ed20a40a03fd9aa9aa8d2f, type: 3}
+    - {fileID: 8300000, guid: b5a53441768a9c845a3e75be37235dd7, type: 3}
+    Volume: 0.85
+    MaxVoices: 2
+    Loop: 0
+    PitchVariation: 0.03
+    VolumeVariation: 0.05
+    Cooldown: 0
+    Priority: 4
+  - Key: countdown
+    Clips:
+    - {fileID: 8300000, guid: a7217d344cc84ff4a9d35194b6fe3bd0, type: 3}
+    - {fileID: 8300000, guid: f012d479454a3b8409faf0cb306c0167, type: 3}
+    Volume: 0.9
+    MaxVoices: 2
+    Loop: 0
+    PitchVariation: 0
+    VolumeVariation: 0
+    Cooldown: 0
+    Priority: 5
+  - Key: countdown_go
+    Clips:
+    - {fileID: 8300000, guid: b297ffdc64bbccb419b8882c36c02d64, type: 3}
+    Volume: 1
+    MaxVoices: 1
+    Loop: 0
+    PitchVariation: 0
+    VolumeVariation: 0
+    Cooldown: 0
+    Priority: 5
+  - Key: match_win
+    Clips:
+    - {fileID: 8300000, guid: bae089e9290d0984abeb18d717473460, type: 3}
+    Volume: 1
+    MaxVoices: 1
+    Loop: 0
+    PitchVariation: 0
+    VolumeVariation: 0
+    Cooldown: 0
+    Priority: 10
+  - Key: match_lose
+    Clips:
+    - {fileID: 8300000, guid: d636b634b45b6cb4c96b69a374c3ffd9, type: 3}
+    Volume: 1
+    MaxVoices: 1
+    Loop: 0
+    PitchVariation: 0
+    VolumeVariation: 0
+    Cooldown: 0
+    Priority: 10
+  - Key: match_end
+    Clips:
+    - {fileID: 8300000, guid: f5061307a8f1aee45b7cc8fca57209ab, type: 3}
+    - {fileID: 8300000, guid: c102e2f975437464bb8f9ea2f0860ca8, type: 3}
+    Volume: 1
+    MaxVoices: 1
+    Loop: 0
+    PitchVariation: 0
+    VolumeVariation: 0
+    Cooldown: 0
+    Priority: 10
+  - Key: low_shield
+    Clips:
+    - {fileID: 8300000, guid: 60de7aff48ec88b459414562d5db70da, type: 3}
+    Volume: 0.6
+    MaxVoices: 1
+    Loop: 1
+    PitchVariation: 0
+    VolumeVariation: 0
+    Cooldown: 0
+    Priority: 3
+  - Key: ui_click
+    Clips:
+    - {fileID: 8300000, guid: b78a71bbac442d343ae3e3733387c75d, type: 3}
+    - {fileID: 8300000, guid: fe0c9b9cbed22da40bac77fea8a1068c, type: 3}
+    - {fileID: 8300000, guid: 2bc543be2d68a634aaa9c431a9177b94, type: 3}
+    Volume: 0.9
+    MaxVoices: 3
+    Loop: 0
+    PitchVariation: 0.03
+    VolumeVariation: 0.05
+    Cooldown: 0.03
+    Priority: 5
+  - Key: ui_confirm
+    Clips:
+    - {fileID: 8300000, guid: f2bbd9aaa31dcd84a92a5c5ec67c719a, type: 3}
+    - {fileID: 8300000, guid: fcee374fc28ef3049b0f89c0b024e508, type: 3}
+    Volume: 0.9
+    MaxVoices: 2
+    Loop: 0
+    PitchVariation: 0.02
+    VolumeVariation: 0.04
+    Cooldown: 0.05
+    Priority: 5
+  - Key: ui_back
+    Clips:
+    - {fileID: 8300000, guid: d6ce37bfebfea82458892420c7b714a4, type: 3}
+    - {fileID: 8300000, guid: 832cc47499a00684da6e659d95a7cde4, type: 3}
+    Volume: 0.9
+    MaxVoices: 2
+    Loop: 0
+    PitchVariation: 0.02
+    VolumeVariation: 0.04
+    Cooldown: 0.05
+    Priority: 5
+  - Key: ui_hover
+    Clips:
+    - {fileID: 8300000, guid: 74dbd1cdcbcdbdb41971ba82b425fbfb, type: 3}
+    - {fileID: 8300000, guid: 3e212b26a752c6443885a9136addc455, type: 3}
+    Volume: 0.6
+    MaxVoices: 2
+    Loop: 0
+    PitchVariation: 0.05
+    VolumeVariation: 0.1
+    Cooldown: 0.04
+    Priority: 4
+  - Key: ui_error
+    Clips:
+    - {fileID: 8300000, guid: 9582de362edbad847a2fe12e4d7b892e, type: 3}
+    Volume: 0.9
+    MaxVoices: 1
+    Loop: 0
+    PitchVariation: 0
+    VolumeVariation: 0
+    Cooldown: 0.1
+    Priority: 5
+  - Key: ui_select
+    Clips:
+    - {fileID: 8300000, guid: 25a6e1b7a5d216442b75cf206a405ff4, type: 3}
+    Volume: 0.9
+    MaxVoices: 1
+    Loop: 0
+    PitchVariation: 0.02
+    VolumeVariation: 0.04
+    Cooldown: 0.04
+    Priority: 5

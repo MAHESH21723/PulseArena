@@ -1,0 +1,1 @@
+PASS: practice spawned player + 3 bots, active match

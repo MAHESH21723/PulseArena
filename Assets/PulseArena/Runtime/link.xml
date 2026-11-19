@@ -1,0 +1,34 @@
+<linker>
+  <!-- CreatePrimitive uses these native components without managed type references.
+       In an IL2CPP release, stripping CapsuleCollider stops arena construction before
+       the menu is created; SphereCollider is also needed for the pilot heads.
+       Keep the exact primitive component types used by ArenaArt.Shape. -->
+  <assembly fullname="UnityEngine.CoreModule">
+    <type fullname="UnityEngine.MeshFilter" preserve="all" />
+    <type fullname="UnityEngine.MeshRenderer" preserve="all" />
+    <!-- Character, lights and probes live in prefabs and the baked scene (referenced only by serialized data). -->
+    <type fullname="UnityEngine.SkinnedMeshRenderer" preserve="all" />
+    <type fullname="UnityEngine.Light" preserve="all" />
+    <type fullname="UnityEngine.ReflectionProbe" preserve="all" />
+  </assembly>
+  <assembly fullname="UnityEngine.PhysicsModule">
+    <type fullname="UnityEngine.BoxCollider" preserve="all" />
+    <type fullname="UnityEngine.SphereCollider" preserve="all" />
+    <type fullname="UnityEngine.CapsuleCollider" preserve="all" />
+    <type fullname="UnityEngine.MeshCollider" preserve="all" />
+  </assembly>
+  <!-- Pilot animation: Animator, controllers, clips and the avatar mask are only referenced by prefab data. -->
+  <assembly fullname="UnityEngine.AnimationModule">
+    <type fullname="UnityEngine.Animator" preserve="all" />
+    <type fullname="UnityEngine.RuntimeAnimatorController" preserve="all" />
+    <type fullname="UnityEngine.AnimatorOverrideController" preserve="all" />
+    <type fullname="UnityEngine.AnimationClip" preserve="all" />
+    <type fullname="UnityEngine.Avatar" preserve="all" />
+    <type fullname="UnityEngine.AvatarMask" preserve="all" />
+  </assembly>
+  <!-- Components that exist only as serialized data in the generated prefabs. -->
+  <assembly fullname="Assembly-CSharp">
+    <type fullname="PulseArena.ArenaPickup" preserve="all" />
+    <type fullname="PulseArena.PilotAnimator" preserve="all" />
+  </assembly>
+</linker>
