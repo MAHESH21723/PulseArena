@@ -18,7 +18,7 @@ A bright, stylized 4-player arena shooter for Android (landscape). Three-minute 
 
 ## Install
 
-1. Download `PulseArena.apk` from the assets of this release on an Android 8.0+ ARM64 phone.
+1. Download `PulseArena-v0.3.0.apk` from the assets of this release on an Android 8.0+ ARM64 phone.
 2. Open the file. When asked, allow your browser or file manager to **install unknown apps**.
 3. Install and launch Pulse Arena. Turn the phone to landscape.
 
